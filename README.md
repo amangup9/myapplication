@@ -4,8 +4,9 @@ Loading and Displaying posts.
 How to run:
 1) Download zip file and extract it to some location.
 2) Open the extracted project in android studio.
-3) You can choose physical(which I did in my case) or virtual device to run your project into.
-4) Click on this run button to run the project on the device. ![image](https://github.com/amangup9/myapplication/assets/62152255/06b8b73e-6fb5-444a-b246-4beb5b3bdc80)
+3) Import all gradle dependencies.
+4) You can choose physical(which I did in my case) or virtual device to run your project into.
+5) Click on this run button to run the project on the device. ![image](https://github.com/amangup9/myapplication/assets/62152255/06b8b73e-6fb5-444a-b246-4beb5b3bdc80)
 
 Output:
 
