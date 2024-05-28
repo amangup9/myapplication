@@ -19,11 +19,12 @@ class ImageAdapter(private val imageUrls: List<String>) : RecyclerView.Adapter<I
     }
 
     override fun onBindViewHolder(holder: ImageViewHolder, position: Int) {
-        Picasso.get()
-                        .load(imageUrls[position])
-                        .placeholder(R.drawable.placeholder) // Optional placeholder
-                        .error(R.drawable.error) // Optional error image
-                        .into(holder.imageView)
+        holder.imageView.load(imageUrls[position]) {
+            crossfade(true)
+            placeholder(R.drawable.placeholder)
+            transformations()
+            scale(Scale.FILL)
+        }
     }
 
     override fun getItemCount(): Int = imageUrls.size
