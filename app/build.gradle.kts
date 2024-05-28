@@ -67,9 +67,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation("androidx.recyclerview:recyclerview:1.2.1")
-    implementation("com.squareup.picasso:picasso:2.71828")
     implementation("com.squareup.okhttp3:okhttp:4.9.1")
     implementation("com.google.code.gson:gson:2.8.7")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2")
-    implementation("com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0")
+    implementation("io.coil-kt:coil-compose:2.6.0")
 }
